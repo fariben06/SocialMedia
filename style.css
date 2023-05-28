@@ -88,7 +88,7 @@ nav {
   top: 70px;
   align-self: flex-start;
 }
-.rigth-sidebar {
+.right-sidebar {
   flex-basis: 25%;
   position: sticky;
   top: 70px;
@@ -128,7 +128,7 @@ nav {
 .shortcut-links p {
   margin: 25px 0;
   color: #626262;
-  font-weight: 500px;
+  font-weight: 500;
 }
 .sidebar-title {
   display: flex;
@@ -136,8 +136,8 @@ nav {
   justify-content: space-between;
   margin-bottom: 18px;
 }
-.sidebar-title h4 {
-  font-weight: 600px;
+.right-sidebar h4 {
+  font-weight: 600;
   font-size: 16px;
 }
 .sidebar-title a {
@@ -154,7 +154,6 @@ nav {
   border-radius: 10px;
   height: 65px;
   width: 65px;
-  margin-right: 15px;
   margin-right: 15px;
   padding-top: 10px;
   text-align: center;
@@ -194,6 +193,15 @@ nav {
   width: 40px;
   border-radius: 50%;
 }
+.online-list .online {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.online-list .online::after {
+  top: unset;
+  bottom: 5px;
+}
 .story-gallery {
   display: flex;
   justify-content: space-between;
@@ -223,10 +231,7 @@ nav {
   color: #fff;
   font-size: 14px;
 }
-.story {
-  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
-    url(images/status-1.png);
-}
+
 .story1 {
   background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
     url(images/status-1.png);
@@ -278,4 +283,98 @@ nav {
 }
 .user-profile small {
   font-size: 12px;
+}
+.post-input-container {
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.post-input-container textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  resize: none;
+}
+.add-post-links {
+  display: flex;
+  margin-top: 10px;
+}
+.add-post-links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #626262;
+  margin-right: 30px;
+  font-size: 13px;
+}
+.add-post-links a img {
+  width: 20px;
+  margin-right: 10px;
+}
+.post-container {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  margin: 20px 0;
+}
+.user-profile span {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.post-text {
+  color: #9a9a9a;
+  margin: 15px 0;
+  font-size: 15px;
+}
+.post-text span {
+  color: #626262;
+  font-size: 500;
+}
+.post-text a {
+  color: #1876f2;
+  text-decoration: none;
+}
+.post-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.post-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activity-icons div img {
+  width: 18px;
+  margin-right: 10px;
+}
+.activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+.post-profile-icon img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.post-row a {
+  color: #9a9a9a;
+}
+.load-more-btn {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #9a9a9a;
+  color: #626262;
+  background: transparent;
+  border-radius: 4px;
 }

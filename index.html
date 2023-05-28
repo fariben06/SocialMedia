@@ -26,14 +26,67 @@
           <img src="images/search.png" />
           <input type="text" placeholder="Search" />
         </div>
-        <div class="nav-user-icon online">
+        <div class="nav-user-icon online" onclick="settingsMenuTOggle()">
           <img src="images/profile-pic.png" />
+        </div>
+      </div>
+      <!------------------ Settings-Menu ------------------>
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <!--------------------- Settings & Privacy ------------------------>
+          <div class="setting-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <!--------------------- Help & Support ---------------------------->
+          <div class="setting-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <!------------------- Display & Accessibility --------------------->
+          <div class="setting-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <!--------------------------- Logout ------------------------------>
+          <div class="setting-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <!-- left-sidebar----------------- -->
+      <!------------------ left-sidebar ------------------->
       <div class="left-sidebar">
         <div class="imp-links">
           <a href="#"><img src="images/news.png" /> Latest News</a>
@@ -54,7 +107,7 @@
           <a href="#"><img src="images/shortcut-4.png" /> Website Expert</a>
         </div>
       </div>
-      <!-- main content----------------- -->
+      <!------------------ Main Content ------------------->
       <div class="main-content">
         <div class="story-gallery">
           <div class="story story1">
@@ -136,7 +189,7 @@
             </div>
           </div>
         </div>
-        <!-- Post container 1-->
+        <!-------------- Post container 1 -------------->
         <div class="post-container">
           <div class="post-row">
             <div class="user-profile">
@@ -171,7 +224,7 @@
           </div>
         </div>
 
-        <!-- Post container 2-->
+        <!-------------- Post container 2 -------------->
         <div class="post-container">
           <div class="post-row">
             <div class="user-profile">
@@ -205,7 +258,7 @@
             </div>
           </div>
         </div>
-        <!-- Post Container 3-->
+        <!-------------- Post Container 3 -------------->
         <div class="post-container">
           <div class="post-row">
             <div class="user-profile">
@@ -239,7 +292,7 @@
             </div>
           </div>
         </div>
-        <!-- Post Container 4-->
+        <!-------------- Post Container 4 -------------->
         <div class="post-container">
           <div class="post-row">
             <div class="user-profile">
@@ -277,152 +330,7 @@
         <button type="button" class="load-more-btn">Load More</button>
       </div>
 
-      <!---
-
-        
-        
-         
-             
-             
-          
-       
-
-        <p class="post-text">
-          Like and share this image with friends, tag
-          <span>@faridb-dev</span> facebook page on your post Ask your doubts in
-          the comments<a ahref="#">Website Development</a>
-          <a href="#">#and UI Design.</a>
-        </p>
-        
-
-        
-         
-        </div>
-      </div>
-
-      <div class="post-container">
-          <div class="post-row">
-            <div class="user-profile">
-              <img src="images/profile-pic.png" />
-              <div>
-                <p>John Nicholson</p>
-                <span>June 24 2023, 14:40 pm</span>
-              </div>
-            </div>
-            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-          </div>
-
-         
-          <img src="images/feed-image-2.png" class="post-img" />
-
-          <div class="post-row">
-          
-            <div class="post-profile-icon">
-              <img src="images/profile-pic.png" />
-              <i class="fas fa-caret-down"></i>
-            </div>
-          </div>
-        </div> -->
-
-      <!--<div class="post-container">
-          <div class="post-row">
-            <div class="user-profile">
-              <img src="images/profile-pic.png" />
-              <div>
-                <p>John Nicholson</p>
-                <span>June 24 2023, 14:40 pm</span>
-              </div>
-            </div>
-            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-          </div>
-
-          <p class="post-text">
-            Like and share this image with friends, tag
-            <span>@faridb-dev</span> facebook page on your post Ask your doubts
-            in the comments<a ahref="#">Website Development</a>
-            <a href="#">#and UI Design.</a>
-          </p>
-          <img src="images/feed-image-3.png" class="post-img" />
-
-          <div class="post-row">
-            <div class="activity-icons">
-              <div><img src="images/like.png" /> 125</div>
-              <div><img src="images/comments.png" /> 46</div>
-              <div><img src="images/share.png" /> 21</div>
-            </div>
-            <div class="post-profile-icon">
-              <img src="images/profile-pic.png" />
-              <i class="fas fa-caret-down"></i>
-            </div>
-          </div>
-        </div> -->
-
-      <!--<div class="post-container">
-          <div class="post-row">
-            <div class="user-profile">
-              <img src="images/profile-pic.png" />
-              <div>
-                <p>John Nicholson</p>
-                <span>June 24 2023, 14:40 pm</span>
-              </div>
-            </div>
-            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-          </div>
-
-          <p class="post-text">
-            Subscribe <span>@faridb-dev</span>Website Development and UI
-            Design.<a ahref="#">Website Development</a>
-            <a href="#">#and UI Design.</a>
-          </p>
-          <img src="images/feed-image-4.png" class="post-img" />
-
-          <div class="post-row">
-            <div class="activity-icons">
-              <div><img src="images/like-blue.png" /> 125</div>
-              <div><img src="images/comments.png" /> 46</div>
-              <div><img src="images/share.png" /> 21</div>
-            </div>
-            <div class="post-profile-icon">
-              <img src="images/profile-pic.png" />
-              <i class="fas fa-caret-down"></i>
-            </div>
-          </div>
-        </div> --->
-
-      <!---<div class="post-container">
-          <div class="post-row">
-            <div class="user-profile">
-              <img src="images/profile-pic.png" />
-              <div>
-                <p>John Nicholson</p>
-                <span>June 24 2023, 14:40 pm</span>
-              </div>
-            </div>
-            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-          </div>
-
-          <p class="post-text">
-            Like and share this image with friends, tag
-            <span>@faridb-dev</span> facebook page on your post Ask your doubts
-            in the comments<a ahref="#">Website Development</a>
-            <a href="#">#and UI Design.</a>
-          </p>
-          <img src="images/feed-image-5.png" class="post-img" />
-
-          <div class="post-row">
-            <div class="activity-icons">
-              <div><img src="images/like.png" /> 125</div>
-              <div><img src="images/comments.png" /> 46</div>
-              <div><img src="images/share.png" /> 21</div>
-            </div>
-            <div class="post-profile-icon">
-              <img src="images/profile-pic.png" />
-              <i class="fas fa-caret-down"></i>
-            </div> 
-          </div> 
-        </div> -->
-
-      <!-- right-sidebar----------------- -->
+      <!----------------- right-sidebar ------------------->
       <div class="right-sidebar">
         <div class="sidebar-title">
           <h4>Events</h4>
@@ -486,5 +394,11 @@
         </div>
       </div>
     </div>
+
+    <div class="footer">
+      <p>Copyright 2023 - Faridb-Dev</p>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
